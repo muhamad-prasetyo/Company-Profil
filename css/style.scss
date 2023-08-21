@@ -1,0 +1,162 @@
+
+
+// ############# Trending ##########
+.trending {
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    .trend-item, .trend-item1, .trend-item2 {
+        position: relative;
+        transition: all ease-in-out 0.5s;
+        overflow: hidden;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 0;
+            bottom: 0;
+            background: #029e9d;
+            height: 4px;
+            transition: all ease-in-out 0.5s;
+            z-index: 2;
+        }
+        .trend-meta {
+            position: absolute;
+            top: -20px;
+            right: 20px;
+        }
+        .trend-image {
+            position: relative;
+            img{
+                transition: all ease-in-out 0.5s;
+                width: 100%;
+            }
+            .trend-content{
+                z-index: 1;
+            }
+        }
+        .trend-image, .trend-image1{
+            transition: all ease-in-out 0.5s;
+            overflow: hidden;
+        }
+        .trend-content1{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        &:hover {
+            transition: all ease-in-out 0.5s;
+            &::before{
+                transition: all ease-in-out 0.5s;
+                width: 100%;
+            }
+            .trend-image img {
+                transform: scale(1.1);
+                transition: all ease-in-out 0.5s;
+            }
+            .color-overlay{
+                height: 100%;
+                transition: all ease-in-out 0.5s;
+            }
+        }
+
+        &:hover .color-overlay{
+            height: 100%;
+            transition: all ease-in-out 0.5s;
+        }
+    }
+
+    .trend-item1 {
+        &::before {
+            display: none;
+        }
+    }
+
+    .trend-item2{
+        position: relative;
+        transition: all ease-in-out 0.5s;
+        height: 100%;
+        overflow: hidden;
+        > a {
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            display: inline-block;
+            transition: all ease-in-out 0.5s;
+        }
+        &::before{display: none;}
+    }
+
+    .trend-image1 {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        transition: all ease-in-out 0.5s;
+        > a {
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            display: inline-block;
+            transition: all ease-in-out 0.5s;
+        }
+    }
+}
+
+
+
+// #-------- Opsional 
+.section-shape {
+    position: absolute;
+    top: -96px;
+    left: 0;
+    width: 100%;
+    height: 96px;
+    background-size: contain;
+    background-repeat: repeat-x;
+    z-index: 1;
+}
+
+.section-shape.section-shape1 {
+    transform: rotate(180deg);
+}
+
+@media(max-width:991px){
+	.section-shape{background-size: cover;}
+}
+
+@media(max-width:767px){
+	.trending {
+		.trend-item {
+			.trend-image1{height:340px; margin-bottom:1rem;}
+		}
+		.trend-item2{height:300px; border-radius: 10px; margin-bottom: 15px;}
+	}
+
+	.trend-packages{
+		.trend-full{
+			.col-lg-5{padding:0!important;}
+		}
+	}
+}
+@media(max-width:400px){
+	.trending {
+		.trend-item {
+			.trend-image{
+				.trend-meta{
+					position:relative;
+					display:block!important;
+					text-align:center;
+					.entry-author{margin-bottom:15px;}
+				}
+			}
+		}
+	}
+}
+
+// ------END OPSIONAL 
