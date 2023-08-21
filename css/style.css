@@ -1,3 +1,60 @@
+.section-stats {
+  margin-top: 10px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 45px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f7f7));
+  background: linear-gradient(#fff 0%, #f7f7f7 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-contents {
+  margin-top: -300px;
+  padding-bottom: 50px;
+  min-width: 40%;
+}
+
+.section-testimonial-contents .card-testimonials {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-contents .testimonial-content {
+  min-height: 250px;
+}
+
+.section-testimonial-contents .name-user {
+  font-size: 22px;
+}
+
+.section-testimonial-contents .testimonial-text {
+  font-weight: 200;
+}
+
+.section-testimonial-contents .trip-to {
+  font-weight: normal;
+  color: #6e6e6e;
+}
+
+.section-testimonial-contents hr {
+  margin-left: -20px;
+  margin-right: -20px;
+  color: #060606;
+}
+
 .trending {
   background-position: top right;
   background-size: contain;

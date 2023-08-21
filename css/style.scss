@@ -8,6 +8,75 @@
 //     }
 // }
 
+// statistic 
+.section-stats {
+    margin-top: 10px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    
+}
+
+// testimonial-heading 
+.section-testimonial-heading {
+    background: linear-gradient(#fff 0%, #f7f7f7 100%);
+    padding-top: 50px;
+    min-height: 506px;
+
+    .testi-h2 {
+        // font-weight: bold;
+        // font-size: 40px;
+    }
+}
+
+.section-testimonial-contents {
+    margin-top: -300px;
+    padding-bottom: 50px;
+    min-width: 40%;
+    
+
+    .card-testimonials {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-content {
+          min-height: 250px; 
+          
+    }
+
+    .name-user {
+        font-size: 22px;
+    }
+    .testimonial-text {
+        font-weight: 200;
+        
+    }
+
+    .trip-to {
+        font-weight: normal;
+        color: #6e6e6e;
+    }
+
+    hr {
+        margin-left: -20px;
+        margin-right: -20px; 
+        color: #060606;
+    }
+}
+
+
+
 //  ################# End  navbar testimonial page baru exmaple opsional new  ##########################
 
 
