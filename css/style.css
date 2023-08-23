@@ -245,7 +245,6 @@
 }
 
 .section-details-outlet-content {
-  margin-top: -30px;
   min-height: 100vh;
   background: #e7e7e7;
 }
@@ -302,5 +301,22 @@
   width: 45px;
   height: 45px;
   float: left;
+}
+
+.section-details-outlet-content .gallery-details-outlet .xzoom-container {
+  display: block;
+}
+
+.section-details-outlet-content .gallery-details-outlet .xzoom-container .xzoom {
+  width: 100%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-outlet-content .gallery-details-outlet .xzoom-container .xactive {
+  border: 4px solid #060606;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */

@@ -268,7 +268,7 @@
     background: #e3e3e3;
 }
 .section-details-outlet-content {
-    margin-top: -30px;
+    // margin-top: -30px;
     min-height: 100vh;
     background: #e7e7e7;
     
@@ -326,6 +326,23 @@
             width: 45px;
             height: 45px;
             float: left;
+        }
+    }
+
+    .gallery-details-outlet {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive {
+                border: 4px solid #060606;
+                box-shadow: none;
+            }
         }
     }
 }
