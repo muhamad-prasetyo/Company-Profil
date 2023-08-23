@@ -270,7 +270,7 @@
 .section-details-outlet-content {
     // margin-top: -30px;
     min-height: 100vh;
-    background: #e7e7e7;
+    background: #fcfcfc;
     
     .breadcrumb {
         background-color: transparent;
@@ -287,6 +287,7 @@
     }
 
     .card-details-outlet{
+        margin-bottom: 10px;
         padding: 30px;
         border-radius: 11px;
     }
@@ -301,6 +302,12 @@
 
     p {
         font-size: 18px;
+    }
+
+    .card-right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
     }
 
     .features {
@@ -345,5 +352,20 @@
             }
         }
     }
+
+    .join-container {
+        margin-top: -16px;
+    }
+
+    .btn-join-now {
+        background-color: #ffe055;
+        color: #747070;
+        border-radius: 0;
+
+        &:hover {
+            background-color: #d8bf50;
+        }
+    }
+
 }
 // ############################### END DETAILS OUTLET ####################

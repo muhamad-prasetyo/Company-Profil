@@ -246,7 +246,7 @@
 
 .section-details-outlet-content {
   min-height: 100vh;
-  background: #e7e7e7;
+  background: #fcfcfc;
 }
 
 .section-details-outlet-content .breadcrumb {
@@ -261,6 +261,7 @@
 }
 
 .section-details-outlet-content .card-details-outlet {
+  margin-bottom: 10px;
   padding: 30px;
   border-radius: 11px;
 }
@@ -275,6 +276,12 @@
 
 .section-details-outlet-content p {
   font-size: 18px;
+}
+
+.section-details-outlet-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
 }
 
 .section-details-outlet-content .features {
@@ -318,5 +325,19 @@
   border: 4px solid #060606;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.section-details-outlet-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-outlet-content .btn-join-now {
+  background-color: #ffe055;
+  color: #747070;
+  border-radius: 0;
+}
+
+.section-details-outlet-content .btn-join-now:hover {
+  background-color: #d8bf50;
 }
 /*# sourceMappingURL=style.css.map */
